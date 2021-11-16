@@ -15,5 +15,7 @@ function myFunction(p1, p2) {
 document.getElementById("demo").innerHTML = myFunction(6, 73);
 </script>
 
+
+
 </body>
 </html>
