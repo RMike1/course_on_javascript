@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>javascript</title>
+        <script>
+           function area(a,b){
+               this.input1=a;
+               this.input2=b;
+               this.getArea()=function() {
+                   this.input1*this.input2;
+                   
+               }
+           }
+           var input1=prompt("enter first value");
+           var input2=prompt("enter second value");
+           var result=0;
+
+           input1=parseInt(input1);
+           input2=parseInt(input2);
+
+           var obj= new area(input1,input2);
+           result=obj.area();
+           console.log(result);
+               
+           }
+        </script>
+    </head>
+    <body>
+    </body>
+</html>
+
+</html>
